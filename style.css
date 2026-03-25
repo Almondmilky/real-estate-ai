@@ -1,0 +1,38 @@
+/* ===== BACKGROUND ===== */
+body {
+    background-color: #f4f6f7;
+}
+
+/* ===== BUTTON ===== */
+.stButton>button {
+    border-radius: 12px;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    background: linear-gradient(90deg, #2E86C1, #5DADE2);
+    color: white;
+    border: none;
+}
+
+.stButton>button:hover {
+    background: linear-gradient(90deg, #1B4F72, #2E86C1);
+    transition: 0.3s;
+}
+
+/* ===== INPUT ===== */
+input, .stNumberInput input {
+    border-radius: 10px !important;
+}
+
+/* ===== CARD STYLE ===== */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* ===== TITLE ===== */
+h1, h2, h3 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+}
